@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress AndroidDomInspection -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.visitasdmfnpv">
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/fnpv"
+        android:label="VISITAS DOMICILIRIAS FNPV"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".programaspacientes" />
+        <activity android:name=".Examenfisicobasico" />
+        <activity android:name=".Antecedentes" />
+        <activity android:name=".Datosgenerales" />
+        <activity android:name=".SingUp"/>
+        <activity android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

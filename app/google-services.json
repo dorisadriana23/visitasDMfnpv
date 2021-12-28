@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "599941210863",
+    "firebase_url": "https://visitasdmfnpv-default-rtdb.firebaseio.com",
+    "project_id": "visitasdmfnpv",
+    "storage_bucket": "visitasdmfnpv.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:599941210863:android:aaed95e09f90a0f7b3b11a",
+        "android_client_info": {
+          "package_name": "com.example.visitasdmfnpv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "599941210863-sh8c8ehp0gcil7so0tck3lam26e8f5a8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBU28f7LfUPccS4AfdhGR3dKEKNqLUpYNg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "599941210863-sh8c8ehp0gcil7so0tck3lam26e8f5a8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
